@@ -20,5 +20,10 @@ print(f"Sum of the ranges: {sum}")
 
 similarity_score = []
 test = Counter(list2)
-print("Hi")
+
+sum2 = 0
+for each in list1:
+    sum2 += each * test[each]
+
+print(f"Sum of the similarity score: {sum2}")
     
